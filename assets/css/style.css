@@ -16,7 +16,8 @@ body,html{
 .flex-h-center{
     display:flex;
     justify-content:center;
-    min-height:100%
+    min-height:100vh;
+    align-items:center;
 }
 
 /* center tux logo */
@@ -136,23 +137,10 @@ body,html{
     font-size:18px
 }
 
-.page-image{
-    position:fixed;
-    left:0;
-    top:0;
-    width:100vw;
-    height:100vh;
-    -o-object-fit:cover;
-    object-fit:cover
-}
-
 .display-image{
-    width:96px;
-    height:96px;
+    width:200px;
+    height:auto;
     display:block;
-    border-radius:50%;
-    -o-object-fit:cover;
-    object-fit:cover
 }
 .text-center{
     text-align:center
